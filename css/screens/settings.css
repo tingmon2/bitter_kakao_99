@@ -1,0 +1,32 @@
+.settings__element {
+  padding: 20px 0px;
+  font-size: 25px;
+  border-bottom: var(--default-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings__element i {
+  margin-right: 5px;
+  color: var(--brown);
+  display: block;
+  width: 25px;
+}
+.settings__element__title {
+  margin-left: 15px;
+}
+.settings__element__description {
+  font-size: 15px;
+  display: block;
+  color: var(--blur-string);
+}
+.settings__element div {
+  display: flex;
+  position: relative;
+}
+.settings__notification {
+  margin-left: 3px;
+}
+.settings__element__first-column {
+  align-items: center;
+}
